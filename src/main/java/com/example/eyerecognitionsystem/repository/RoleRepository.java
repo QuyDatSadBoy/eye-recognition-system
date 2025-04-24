@@ -1,4 +1,10 @@
 package com.example.eyerecognitionsystem.repository;
 
-public class RoleRepository {
+
+import com.example.eyerecognitionsystem.entity.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 }

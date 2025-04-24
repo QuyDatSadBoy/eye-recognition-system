@@ -1,4 +1,4 @@
-package com.example.eyerecognitionsystem.service;
+package com.example.eyerecognitionsystem.util;
 
 
 import jakarta.annotation.PostConstruct;
